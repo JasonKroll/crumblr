@@ -10,7 +10,6 @@
 
 <p>
 	<% if post.kind == 'image' %>
-	   Show the image ...
      <%= image_tag  post.content, style: "width: 100%" %>
 	 <% else %>
      <%= simple_format post.content %>
